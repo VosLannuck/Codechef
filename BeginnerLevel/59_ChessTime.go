@@ -8,7 +8,7 @@ func main() {
   fmt.Scan(&t);
   for t > 0 {
     fmt.Scan(&n);
-    fmt.Println( (n / 60 ) / 20 );
+    fmt.Println( (n * 60 ) / 20 );
     t--;
   }
 

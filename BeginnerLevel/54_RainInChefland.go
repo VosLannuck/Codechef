@@ -9,7 +9,7 @@ func main() {
     fmt.Scan(&x);
       if(x < 3) {
       fmt.Println("LIGHT");
-      } else if (x >= 3 && < 7) {
+      } else if (x >= 3 && x < 7) {
       fmt.Println("MODERATE");
     } else {
       fmt.Println("HEAVY");
