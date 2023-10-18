@@ -1,14 +1,15 @@
 package beginnerlevel
-// https://www.codechef.com/problems/BUDGET_
+// https://www.codechef.com/problems/AVGPROBLEM
 import "fmt"
-func main() {
 
-  var t, x , y int;
+func main(){
+
+  var t int;
+  var a, b , c float64;
   fmt.Scan(&t);
   for t > 0 {
-    fmt.Scan(&x,&y);
-    y = y * 30 ;
-    if(y <= x) {
+    fmt.Scan(&a, &b, &c );
+    if( ( (a + b ) / 2) > c) {
       fmt.Println("YES");
     } else {
       fmt.Println("NO");

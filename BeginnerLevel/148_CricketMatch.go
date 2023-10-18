@@ -1,19 +1,25 @@
+// https://www.codechef.com/problems/CRICMATCH
+
 package beginnerlevel
-// https://www.codechef.com/problems/BUDGET_
+
 import "fmt"
+
 func main() {
 
-  var t, x , y int;
+  var t, n, m int;
   fmt.Scan(&t);
+
   for t > 0 {
-    fmt.Scan(&x,&y);
-    y = y * 30 ;
-    if(y <= x) {
+    fmt.Scan(&n, &m);
+    var potentialRuns int = 6 * 6 * m ;
+    if(potentialRuns >= n) {
       fmt.Println("YES");
     } else {
       fmt.Println("NO");
+
     }
     t--;
   }
+
 
 }
